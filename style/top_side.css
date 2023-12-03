@@ -1,0 +1,46 @@
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header img{
+  width: 150px;
+  cursor: pointer;
+}
+main{
+  border-radius: 0.5rem;
+  box-shadow: 0 0 9px rgba(0,0,0,0.5);
+  display: grid;
+  grid-template-columns:1fr 60px;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  height:1.5rem ;
+  background-color: rgba(32, 32, 36, 0.904);
+  align-items: center;
+}
+#todoInput{
+  color:  hsl(234, 39%, 85%);
+  border: none;
+  background-color: rgba(32, 32, 36, 0);
+  outline: none;
+  font-size: 1rem;
+  font-weight: 700;
+}
+main button {
+  background-color: rgb(32, 32, 36);
+  border: 1px solid hsl(192, 100%, 67%) ;
+  padding: 5px;
+  border-radius: 5px;
+  color:#d1cfcf ;
+  font-weight: 700;
+  cursor: pointer;
+  opacity:0.5;
+  transition: 0.5s ease ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main button:hover{
+  border: 1px solid rgba(172, 255, 47, 0.815);
+  opacity:1;
+}

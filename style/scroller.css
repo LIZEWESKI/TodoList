@@ -1,0 +1,23 @@
+::-webkit-scrollbar{
+  width: 0.5rem;
+  transition: all 0.50s ease;
+}
+::-webkit-scrollbar-track{
+  background: hsla(60, 1%, 25%, 0.233);
+  border-radius: 100vw;
+  margin-block: .5em;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(325deg, rgba(87,221,255,1) 0%, rgba(192,88,243,1) 100%);
+  border-radius: 100vw;
+ 
+}
+::-webkit-scrollbar-thumb:hover{
+  background: linear-gradient(325deg, rgba(87, 221, 255, 0.774) 0%, rgba(192,88,243,1) 100%);
+}
+@supports(scrollbar-color: cyan pink){
+  *{
+    scrollbar-width:thin;
+    scrollbar-color:rgba(192,88,243,1) hsla(60, 1%, 25%, 0.233) ;
+  }
+}

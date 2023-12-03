@@ -1,0 +1,44 @@
+aside{
+  background-color: rgba(32, 32, 36, 0.925);
+  border-radius: 0.5rem;
+  box-shadow: 0 0 9px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  padding: 0.7rem;
+}
+article{
+  height: 360px;
+  overflow: auto;
+}
+.outputContainer{
+  height:1.5rem ;
+  margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns:30px 1fr 60px;
+  padding: 0.4rem;
+  border-bottom: 1px solid grey;
+  align-items: center;
+}.outputContainer .labelElem {
+  color:  hsl(234, 39%, 85%);
+  border: none;
+  background-color: rgba(32, 32, 36, 0);
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 9px;
+}
+.outputContainer button {
+  background-color: rgb(32, 32, 36);
+  border: 1px solid hsla(280, 87%, 65%, 0.76);
+  padding: 5px;
+  border-radius: 5px;
+  color:#d1cfcf ;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.5s ease ;
+  opacity: 0.5;
+}
+.outputContainer button:hover{
+  border: 1px solid orangered;
+  opacity: 1;
+}
